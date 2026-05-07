@@ -22,7 +22,7 @@ import Fontana from "../assets/Fontana.png"
 import Hagen from "../assets/Hagen.png"
 import Strange from "../assets/Strange.png"
 import Bryus from "../assets/Bryus.png"
-import Melo from "../assets/melo.jpg"
+import melo from "../assets/melo.jpg"
 import Steve from "../assets/Steve.png"
 import Itolo from "../assets/Itolo.png"
 import Stark from "../assets/Stark.png"
@@ -275,9 +275,9 @@ function Company() {
                             <Link to="/templete" state={{
                                 name: "Javena Melo",
                                 role: "Support Teacher",
-                                img: Melo
+                                img: melo
                             }} className="relative flex-1 overflow-hidden cursor-pointer group">
-                                <img src={Melo} alt="Melo" className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-50" />
+                                <img src={melo} alt="Melo" className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-50" />
                                 <div className="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-black/90 to-transparent translate-y-full opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
                                     <p className="text-white font-bold text-lg">Javena Melo</p>
                                     <p className="text-slate-400 text-sm pt-[8px]">Support Teacher</p>
